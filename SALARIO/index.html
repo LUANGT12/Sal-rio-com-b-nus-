@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario</title>
+    <link rel="stylesheet"  href="index.css"> 
+    
+</head>
+<body>
+    <div>
+    <h1>Salario</h1>
+
+        <h2>Formulário do funcario:</h2>
+        <section>
+            <form action="#">
+                <label for="nome_funcionario"><bold>  Nome do usuário:</bold>
+                    <input type="text" name ="nome_funcionario" placeholder="DIGITE SEU NOME" id="nome_funciorario">
+                </label>
+
+                <label for="salario_fixo"><bold> Salario fixo:</bold>
+                    <input type="text" name ="salario_fixo" placeholder="DIGITE SEU SALARIO" id="salario_fixo">
+                </label>
+
+                <label for="total_vendido"><bold>  Total vendido:</bold>
+                    <input type="text" name ="total_vendido" placeholder="TOTAL" id="total_vendido">
+                </label>
+                <div id="res">Calculo final</div>
+                <p><input type="button" value="calcular" onclick="calcular()"></p>
+        </form>
+    </section>
+    
+</body>
+<script src = "index.js"></script>
+</html>     
